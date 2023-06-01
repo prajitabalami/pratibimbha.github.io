@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: #000;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-nav .nav-link {
+  color: #000;
+}
+nav img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.green-container {
+  min-height: 300px;
+  background-color: #528365;
+}
+canvas :hover {
+  cursor: crosshair !important;
+}
+.spacings {
+  padding: 60px 0px;
+}
+.test-images img {
+  width: 100%;
+}
+
+.back-color {
+  background-color: #528365;
+  padding: 0px 0px 10px 0px;
+}
+
+.team-container img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon {
+  background-color: #528365 !important;
+  padding: 10px !important;
+}
+.carousel-control-next-icon {
+  background-color: #528365 !important;
+  padding: 10px !important;
+}
+.back-color p {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.team2-container img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.green {
+  background-color: #528365;
+}
+.carousel {
+  text-align: center;
+  padding: 40px 270px;
+}
+.carousel-control-prev {
+  color: #000;
+}
+.carousel-control-next {
+  color: #000;
+}
+
+.input-area input {
+  width: 100%;
+}
+
+.information-container {
+  padding: 30px 0px 100px 0px;
+}
+.textbox {
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  background-color: #528365;
+  color: #fff;
+  /* padding: 30px 0px 0px 0px; */
+}
+
+footer a{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+footer p{
+  margin: 10px 0px;
+}
+.instagram{
+
+  font-size: 20px;
+}
+.facebook{
+  font-size: 20px;
+  margin: 0px 15px;
+}
+.email{
+  font-size: 20px;
+}
+.creators{
+  background-color: #3a664b;
+}
+.description-text{
+  padding: 15px 0px 30px 0px;
+}
+
+/* box-sizing: border-box */
+
+@media (max-width: 767px) {
+  .carousel {
+    background-color: #528365;
+    text-align: center;
+    padding: 20px 40px;
+    color: #fff;
+  }
+  .back-color {
+    /* background-color: green; */
+    padding: 20px 0px;
+  }
+  .about-container {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .vision-container {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  nav img {
+    margin: 0px 0px 0px 20px;
+  }
+  .green-container {
+    height: 130px;
+  }
+}
